@@ -121,14 +121,6 @@ document.addEventListener("DOMContentLoaded", () =>{
             duration: 1,
             ease: "none",
             delay: 0.5,
-            onComplete: () => {
-                gsap.to(".logo-line-2",{
-                    backgroundPosition: "0% 0%",
-                    color: "#fff",
-                    duration: 1,
-                    ease: "none",
-                });
-            },
         });
 
         overlayTimeline.to([".projects-header", ".project-item"],{
